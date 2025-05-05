@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100.
+    .900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,
+    700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+S
+    washed:wght@300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Calculator | Keith Maranan</title>
+</head>
+
+<body>
+
+    <div class="calculator">
+        <div class="container">
+            <div class="calculator-text-input">
+                <input type="text" id="calculator-input-text" class="calculator-input-text" disabled>
+            </div>
+            <div class="calculator-button">
+                <button id="AC" onclick="ClearAll()">AC</button>
+                <button id="AC" onclick="Parenthesis('( )')">( )</button>
+                <button id="AC" onclick="ButtonValue('%')">%</button>
+                <button id="Operator" onclick="ButtonValue('/')">÷</button>
+                <br>
+                <button id="Number" onclick="ButtonValue('7')">7</button>
+                <button id="Number" onclick="ButtonValue('8')">8</button>
+                <button id="Number" onclick="ButtonValue('9'), click()">9</button>
+                <button id="Operator" onclick="ButtonValue('*')">&times;</button>
+                <br>
+                <button id="Number" onclick="ButtonValue('4')">4</button>
+                <button id="Number" onclick="ButtonValue('5')">5</button>
+                <button id="Number" onclick="ButtonValue('6')">6</button>
+                <button id="Operator" onclick="ButtonValue('-')">-</button>
+                <br>
+                <button id="Number" onclick="ButtonValue('1')">1</button>
+                <button id="Number" onclick="ButtonValue('2')">2</button>
+                <button id="Number" onclick="ButtonValue('3')">3</button>
+                <button id="Operator" onclick="ButtonValue('+')">+</button>
+                <br>
+                <button id="Number0" onclick="ButtonValue('0')">0</button>
+                <button id="Number" onclick="ButtonValue('.')">.</button>
+                <button id="Operator" onclick="Total()">=</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

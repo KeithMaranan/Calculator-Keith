@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display', sans-serif;
+    cursor: pointer;
+}
+
+.calculator{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.calculator{
+    background-color: #121212;
+    width: 420px;
+    height: 650px;
+    border-radius: 50px;
+    margin-left: 38%;
+}
+
+.calculator-text-input input{
+    font-size: 80px;
+    text-align: right;
+    padding: 20px 20px;
+    height: 120px;
+    width: 100%;
+    background-color: #121212;
+    color: #ffffff;
+    border: none;
+    border: 1px solid #121212;
+    border-radius: 50px;
+}
+
+.calculator-button button{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 600;
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50px;
+    margin: 8px;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+#AC{
+    background-color: #A5A5A5;
+    color: #121212;
+}
+
+#Number{
+    background-color: #333333;
+    color: #ffffff;
+}
+
+#Operator{
+    background-color: #FF9500;
+    color: #121212;
+}
+
+#Number0{
+    background-color: #333333;
+    color: #ffffff;
+    width: 177px;
+    height: 80px;
+}
+
+.TopNumber{
+    color: rgb(59, 57, 53);
+}
+
+@media (max-width: 600px) {
+    body{
+        margin-right: 400px;
+    }
+}
